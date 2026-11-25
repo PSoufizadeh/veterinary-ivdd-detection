@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the associated publication."
+
+title: "Veterinary IVDD Detection Using Deep Learning"
+type: software
+
+authors:
+  - family-names: Soufizadeh
+    given-names: Parham
+  - family-names: Famil Ghadakchi
+    given-names: Hamed
+  - family-names: Modarres Tonekabony
+    given-names: Seyyed Hossein
+  - family-names: Molazem
+    given-names: Mohammad
+
+repository-code: "https://github.com/PSoufizadeh/veterinary-ivdd-detection"
+
+keywords:
+  - Artificial Intelligence
+  - Deep Learning
+  - Veterinary Medicine
+  - Medical Imaging
+  - Computer Vision
+  - Intervertebral Disc Disease
+  - VGG16
+  - U-Net
+
+preferred-citation:
+  type: article
+  title: "Deep Learning for Diagnosis of Disc Herniation in Small Animals: A CNN-Based Approach Using CT Imaging"
+  authors:
+    - family-names: Soufizadeh
+      given-names: Parham
+    - family-names: Famil Ghadakchi
+      given-names: Hamed
+    - family-names: Modarres Tonekabony
+      given-names: Seyyed Hossein
+    - family-names: Molazem
+      given-names: Mohammad
+  journal: "Veterinary Radiology & Ultrasound"
+  year: 2026
+  volume: 67
+  doi: "10.1111/vru.70161"
+  url: "https://doi.org/10.1111/vru.70161"
