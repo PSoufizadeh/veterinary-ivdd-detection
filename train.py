@@ -7,6 +7,7 @@ from keras.applications import VGG16
 from keras.layers import GlobalAveragePooling2D, Dense, Dropout, BatchNormalization, Conv2D, MaxPooling2D, UpSampling2D, concatenate
 from keras.models import Model, Sequential
 from keras.optimizers import Adam
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 import numpy as np
 import matplotlib.pyplot as plt
