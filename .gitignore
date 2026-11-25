@@ -221,3 +221,40 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research datasets and confidential medical images
+Healthy/
+IVDD/
+0_IVDD/
+1_Healthy/
+dataset/
+data/
+datasets/
+
+# Generated predictions and evaluation outputs
+test_results/
+
+# Trained models and checkpoints
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.keras
+*.ckpt*
+
+# Medical imaging files
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Local development settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
